@@ -1,0 +1,25 @@
+.noteDiv {
+    align-self: flex-start;
+    height: auto;
+    margin: 5px 5px;
+    width: 260px;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.noteDiv div {
+    height: min-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.noteText {
+    font-size: 12pt;
+}
+
+.noteDate {
+    font-size: 10pt;
+}
