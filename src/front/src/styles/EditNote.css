@@ -1,0 +1,26 @@
+.editNoteDiv {
+    margin: 0 auto;
+}
+
+.submitEditBtn {
+    margin-top: 10px;
+    background: linear-gradient(#eeac00 , #cc8a00) !important;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    border: 2px ridge white;
+    color: #eee;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.submitEditBtn:hover {
+    cursor: pointer;
+}
+
+.editText {
+    background-color: #c9f9f9;
+    font-size: 12pt;
+    width: 40vw;
+    height: 20vw;
+}

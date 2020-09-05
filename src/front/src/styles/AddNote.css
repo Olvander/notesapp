@@ -1,0 +1,26 @@
+.addNoteDiv {
+    margin: 0 auto;
+}
+
+.addText {
+    background-color: #c9f9f9;
+    font-size: 12pt;
+    width: 40vw;
+    height: 20vw;
+}
+
+.submitAddBtn {
+    margin-top: 10px;
+    background: linear-gradient(#33c42d , #11a20c) !important;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    border: 2px ridge white;
+    color: #eee;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.submitAddBtn:hover {
+    cursor: pointer;
+}

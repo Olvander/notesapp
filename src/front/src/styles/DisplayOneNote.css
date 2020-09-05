@@ -1,0 +1,38 @@
+.displayOneNoteDiv {
+    margin: 0 auto !important;
+    width: 100%;
+    height: 100% !important;
+}
+
+.oneNoteContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.displayOneNoteContainer {
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+    margin: 0 0;
+}
+
+.displayTextDiv {
+    font-size: 14pt;
+    margin: 20px 40px;
+    text-align: left;
+    display: flex;
+    line-break: strict;
+    max-width: 500px;
+    min-width: 80%;
+    white-space: pre-line;
+}
+
+.dateOfOneNoteDiv {
+    height: fit-content;
+    text-align: end !important;
+    width: fit-content;
+    display: flex !important;
+    margin: auto 0 0 auto;
+    font-size: 14pt;
+}
