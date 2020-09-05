@@ -16,7 +16,7 @@ class EditNote extends Component {
     async manageSubmit(event) {
         event.preventDefault();
         if (this.state.text !== '') {
-            const res = await fetch('http://localhost:8080/api/notes/' + this.props.id, {
+            const res = await fetch('/api/notes/' + this.props.id, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'

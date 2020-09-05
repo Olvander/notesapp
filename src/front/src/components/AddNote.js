@@ -16,7 +16,7 @@ class AddNote extends Component {
     async manageSubmit(event) {
         event.preventDefault();
         if (this.state.text !== '') {
-            const res = await fetch('http://localhost:8080/api/notes/', {
+            const res = await fetch('/api/notes/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

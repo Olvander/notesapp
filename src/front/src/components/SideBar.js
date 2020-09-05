@@ -35,7 +35,7 @@ class SideBar extends Component {
     }
 
     async fetchNotes() {
-        const res = await fetch('http://localhost:8080/api/notes');
+        const res = await fetch('/api/notes');
         if (res.status !== 404) {
             const requestBody = await res.json();
 

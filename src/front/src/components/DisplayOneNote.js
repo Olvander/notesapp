@@ -34,7 +34,7 @@ class DisplayOneNote extends Component {
     async fetchNote() {
         const id = this.props.id;
 
-        const res = await fetch('http://localhost:8080/api/notes/' + id, {
+        const res = await fetch('/api/notes/' + id, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'

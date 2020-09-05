@@ -52,7 +52,7 @@ class App extends Component {
   }
 
   async editNote(id) {
-    const res = await fetch('http://localhost:8080/api/notes/' + id, {
+    const res = await fetch('/api/notes/' + id, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
@@ -65,7 +65,7 @@ class App extends Component {
   }
 
   async removeNote(id) {
-    const response = await fetch('http://localhost:8080/api/notes/' + id, {
+    const response = await fetch('/api/notes/' + id, {
       method: 'DELETE',
     });
     return response.status;
