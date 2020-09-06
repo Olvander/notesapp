@@ -14,6 +14,13 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * The Rest Controller class of the application.
+ *
+ * @author  Olli Pertovaara
+ * @version 2020.09.06
+ * @since   1.8
+ */
 @RestController
 public class NoteController {
 

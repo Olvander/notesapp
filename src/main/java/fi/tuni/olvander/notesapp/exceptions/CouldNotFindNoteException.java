@@ -2,6 +2,10 @@ package fi.tuni.olvander.notesapp.exceptions;
 
 /**
  * An instance of this class is created when a note cannot be found with an id.
+ *
+ * @author  Olli Pertovaara
+ * @version 2020.09.06
+ * @since   1.8
  */
 public class CouldNotFindNoteException extends IllegalArgumentException {
 

@@ -7,6 +7,10 @@ import java.util.Date;
 
 /**
  * A POJO class for Note objects to be managed in the H2 database.
+ *
+ * @author  Olli Pertovaara
+ * @version 2020.09.06
+ * @since   1.8
  */
 @Entity
 @Table

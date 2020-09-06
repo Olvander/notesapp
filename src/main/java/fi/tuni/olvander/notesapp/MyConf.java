@@ -6,7 +6,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * A class that implements WebMvcConfigurer interface.
- * For modifying CORS mappings.
+ * For adding CORS mappings.
+ *
+ * @author  Olli Pertovaara
+ * @version 2020.09.06
+ * @since   1.8
  */
 @Configuration
 public class MyConf implements WebMvcConfigurer {

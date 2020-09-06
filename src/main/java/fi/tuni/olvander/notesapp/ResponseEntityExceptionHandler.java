@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
- * A Handler class for Response Entity Exceptions.
+ * Class for handling response entity exceptions.
+ *
+ * @author  Olli Pertovaara
+ * @version 2020.09.06
+ * @since   1.8
  */
 @ControllerAdvice
 public class ResponseEntityExceptionHandler {
@@ -22,7 +26,7 @@ public class ResponseEntityExceptionHandler {
     @ExceptionHandler(CouldNotFindNoteException.class)
     public ResponseEntity<ErrorInfo> handleConflict(CouldNotFindNoteException ex) {
         ErrorInfo e = new ErrorInfo("Could not find note with the id " + ex.getNoteId());
-        return new ResponseEntity<ErrorInfo>(e, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(e, HttpStatus.NOT_FOUND);
     }
 
     /**
@@ -35,6 +39,6 @@ public class ResponseEntityExceptionHandler {
     @ExceptionHandler(NoNotesExistException.class)
     public ResponseEntity<ErrorInfo> handleConflict(NoNotesExistException ex) {
         ErrorInfo e = new ErrorInfo("No notes exist yet");
-        return new ResponseEntity<ErrorInfo>(e, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(e, HttpStatus.NOT_FOUND);
     }
 }
