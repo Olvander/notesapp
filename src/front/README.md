@@ -36,6 +36,10 @@ http://localhost:8080
 The H2 database can be found at:
 http://localhost:8080/h2-console
 
+If you want to view / modify the H2 database,<br/>
+change the JDBC URL in the H2 console to:<br/>
+jdbc:h2:./notes
+
 ## Features
 
 - Add notes
