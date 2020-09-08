@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Full Stack notes app created with React.js, Spring Boot and H2.<br/> 
+I made this to test if I can create a Full Stack app with a properly working REST api.
 
-## Available Scripts
+## Table of contents
+* [General info](#general-info)
+* [Screenshot](#screenshot)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
 
-In the project directory, you can run:
+## General info
+This project is a simple notes app.<br/>
+User can add, remove and edit notes in the H2 database.<br/>
+The data is persistently stored into a database file<br/>
+but may be removed using the Remove button.
 
-### `npm start`
+## Screenshot
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Technologies
+The project has been created with:
+* React.js
+* Java Spring Boot
+* H2 embedded database
+	
+## Setup
+To run this project, just run the attached jar file in command prompt:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+java -jar notesapp-v1.0.jar
 
-### `npm run build`
+Then open a browser and type:
+http://localhost:8080
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The H2 database can be found at:
+http://localhost:8080/h2-console
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Add notes
+- Edit notes
+- Remove notes
+- View them truncated in the sidebar
+- View them as whole texts in the center of the screen
+- In command line, do REST api calls with e.g. curl
 
-### `npm run eject`
+## Status
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The project status is complete.
