@@ -17,7 +17,7 @@ but may be removed using the Remove button.
 
 ## Screenshot
 
-
+![notesapp](notesapp.png)
 
 ## Technologies
 The project has been created with:
